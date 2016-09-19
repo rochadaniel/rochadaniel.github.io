@@ -1,10 +1,10 @@
-title: A solução para seus problemas
-description: My Personal Stack Problems
+title: Blog
+description: Compartilhando pouco da minha experiência
 author: Daniel Rocha
 github: https://github.com/rochadaniel
 about: Desenvolvedor mobile e amante da tecnologia :)
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+disqus_shortname: rochadaniel
+google_analytics: UA-53685939-7
 
 enableTags: true
 tagarray: []
@@ -25,13 +25,13 @@ social:
       link: "#"
 
 share:
-  fb_appid: 1749788565247320
+  fb_appid: 1808598809355293
 
 urls:
     - text: Quem sou eu
       url: /about/
-    - text: Projetos
-      url: /projects/
+    # - text: Projetos
+    #   url: /projects/
     - text: XML Feed
       url: /feed.xml
 
