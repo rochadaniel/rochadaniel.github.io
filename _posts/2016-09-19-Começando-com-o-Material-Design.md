@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Começando com o Material Design"
-date:   2016-09-18 03:43:45 +0700
+date:   2016-09-19 13:00:00 +0000
 categories: [android]
 ---
 
