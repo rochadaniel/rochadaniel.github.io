@@ -25,7 +25,7 @@ O Material Design fornece um conjunto de propriedades para personalizar o tema d
 
 `navigationBarColor` - Esta cor define a cor da barra de navegação do rodapé.
 
-![](/static/img/toolbar_example.png)
+![](/static/img/posts/toolbar/toolbar_example.png)
 
 > O google oferece essa [Palleta de Cores](http://www.google.co.in/design/spec/style/color.html#color-color-palette) para ajudar a escolher uma cor legal para o seu app :)
 
@@ -55,7 +55,7 @@ O Material Design fornece um conjunto de propriedades para personalizar o tema d
     <color name="navigationBarColor">#000000</color>
 </resources>
 ```
-**4.** Abra o arquivo **styles.xml** dentro de **res ⇒ values** e adicione as seguintes linhas de código. Os estilos definidos em **styles.xml** são comuns para todas as versões do Android. Vamos chamar nosso estiloe de **MyMaterialTheme**.
+**4.** Abra o arquivo **styles.xml** dentro de **res ⇒ values** e adicione as seguintes linhas de código. Os estilos definidos em **styles.xml** são comuns para todas as versões do Android. Vamos chamar nosso estilo de **MyMaterialTheme**.
 
 ```xml
 <resources>
@@ -92,7 +92,7 @@ O Material Design fornece um conjunto de propriedades para personalizar o tema d
 ```
 Perceba que o nome do nosso estilo continua sendo **MyMaterialTheme**, sendo assim ele herda os estilos do nosso outro arquivo **styles.xml** e adiciona esses novos atributos quando a versão do aparelho for igual ou superior ao **Android Lollipop**.
 
-**6.** Agora nós temos nosso estilo Material Design preparado. Now we have the basic Material Design styles ready. Agora para aplicar o tema no nosso aplicativo, vamos abrir o arquivo **AndroidManifest.xml** e modificar o atributo **android:theme** que fica dentro da tag **application**.
+**6.** Agora nós temos nosso estilo Material Design preparado. Para aplicar o tema no nosso aplicativo, vamos abrir o arquivo **AndroidManifest.xml** e modificar o atributo **android:theme** que fica dentro da tag **application**.
 
 ```xml
 android:theme="@style/MyMaterialTheme"
@@ -125,7 +125,7 @@ Depois de aplicar o tema, seu arquivo **AndroidManifest.xml** vai ficar parecido
 
 Agora, se você rodar o seu app, verá a barra de notificação na cor especificada no seu estilo.
 
-![](/static/img/toolbar_example1.png)
+![](/static/img/posts/toolbar/toolbar_example1.png)
 
 ## 3. Adicionando a Toolbar (Antiga ActionBar)
 
@@ -169,13 +169,13 @@ Usar **Toolbar** é facil e bastante customizavel. Podemos criar direto no arqui
 ```
 Rode o aplicativo e veja se a toolbar será visualizada da seguinte forma:
 
-![](/static/img/toolbar_example2.png)
+![](/static/img/posts/toolbar/toolbar_example2.png)
 
 Agora vamos tentar adicionar uma toolbar com titulo e icones.
 
 **9.** Faça download do [icone](https://design.google.com/icons/#ic_search). Após baixar o arquivo, o icone será separado em algumas pastas (drawable-hdpi,mdpi,xhdpi,xxhdpi,xxxhdpi). Selecione essas pastas e copie para o diretório **res** que o Android Studio já separa os icones de acordo com a densidade de tela que o seu app irá rodar.
 
-![](/static/img/toolbar_drawables.png)
+![](/static/img/posts/toolbar/toolbar_drawables.png)
 
 **10.** Agora abra o arquivo **menu_main.xml** que fica dentro de **res ⇒ menu** e adicione os seguintes itens. Caso não exista, crie uma pasta dentro de **res** chamada **menu** e depois crie um arquivo com o nome **menu_main.xml**.:
 
@@ -263,9 +263,9 @@ Repare que no método `onOptionsItemSelected` criamos um `switch` para pegar o r
 
 Depois dessas alteracões, você deverá ver sua Toolbar da seguinte forma:
 
-![](/static/img/toolbar_example3.png)
+![](/static/img/posts/toolbar/toolbar_example3.png)
 
-![](/static/img/toolbar_example4.png)
+![](/static/img/posts/toolbar/toolbar_example4.png)
 
 [Baixe o código aqui](https://github.com/rochadaniel/AndroidToolbar)
 

@@ -1,5 +1,5 @@
 title: Blog
-description: Compartilhando pouco da minha experiência
+description: Compartilhando um pouco de experiência
 author: Daniel Rocha
 github: https://github.com/rochadaniel
 about: Desenvolvedor mobile e amante da tecnologia :)
@@ -15,19 +15,21 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
+    # - icon: fa-facebook
+    #   link: "#"
     - icon: fa-github
-      link: "#"
+      link: "https://github.com/rochadaniel"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/danielrochadev"
+    # - icon: fa-stack-exchange
+    #   link: "#"
 
 share:
   fb_appid: 1808598809355293
 
 urls:
+    # - text: Categorias
+    #   url: /category/android
     - text: Quem sou eu
       url: /about/
     - text: XML Feed
