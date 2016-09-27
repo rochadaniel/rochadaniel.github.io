@@ -697,6 +697,6 @@ Ao rodar o app, veremos da seguinte forma:
 
 ![](https://media.giphy.com/media/3o7TKPpqQNsO3a0hRC/giphy.gif)
 
-Obrigado e para, qualquer dúvida ou sugestão, não deixe de comentar :)
+Obrigado. Para qualquer dúvida ou sugestão, não deixe de comentar :)
 
 [Baixe o código completo aqui](https://github.com/rochadaniel/FloatingActionButtonViewPagerAnimation)
