@@ -9,7 +9,7 @@ Você já deve ter ouvido falar do Material Design que foi introduzido na versã
 
 Hoje você vai aprender a configurar um **Material Theme** e utilizar o componente **Toolbar**, substituto da **ActionBar**.
 
-[Baixe o código aqui](https://github.com/rochadaniel/AndroidToolbar)
+[Baixe o código completo aqui](https://github.com/rochadaniel/AndroidToolbar)
 
 ## 1. Customizando as cores
 
@@ -267,7 +267,7 @@ Depois dessas alteracões, você deverá ver sua Toolbar da seguinte forma:
 
 ![](/static/img/posts/toolbar/toolbar_example4.png)
 
-[Baixe o código aqui](https://github.com/rochadaniel/AndroidToolbar)
+[Baixe o código completo aqui](https://github.com/rochadaniel/AndroidToolbar)
 
 **Referências:**
 

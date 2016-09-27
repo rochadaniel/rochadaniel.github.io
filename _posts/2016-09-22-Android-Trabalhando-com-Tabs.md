@@ -6,7 +6,7 @@ categories: [android]
 ---
 A biblioteca [Android Design Support Library](http://android-developers.blogspot.com.br/2015/05/android-design-support-library.html) facilita a portabilidade para apps >Android 2.1. Foram introduzidos nessa biblioteca componentes como **Navigation Drawer**, **Floating Action Button**, **Snackbar**, **Tabs** e **Floating labels**. Vamos aprender um por um, começando pelas Tabs.
 
-[Baixe o código aqui](https://github.com/rochadaniel/AndroidTabs)
+[Baixe o código completo aqui](https://github.com/rochadaniel/AndroidTabs)
 
 ## 1. Implementando Tabs
 
@@ -498,6 +498,6 @@ private void setupTabIcons() {
 
 ![](/static/img/posts/tabs/tabs7.png)
 
-[Baixe o código aqui](https://github.com/rochadaniel/AndroidTabs)
+[Baixe o código completo aqui](https://github.com/rochadaniel/AndroidTabs)
 
 Use a imaginação :)
