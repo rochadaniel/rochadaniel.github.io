@@ -28,8 +28,8 @@ share:
   fb_appid: 1808598809355293
 
 urls:
-    # - text: Categorias
-    #   url: /category/android
+    - text: Categorias
+      url: /category/android
     - text: Quem sou eu
       url: /about/
     - text: XML Feed
